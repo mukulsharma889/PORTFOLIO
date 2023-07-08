@@ -1,0 +1,21 @@
+body {
+    background-image: url('skills2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* margin-right: 220px; */
+    /* margin-left: 350px; */
+}
+
+header {
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    margin-right: 5px;
+}
+
+.fonta {
+    color: rgb(1, 11, 21);
+    font-size: 28px;
+}
