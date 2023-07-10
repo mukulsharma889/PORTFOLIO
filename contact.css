@@ -1,0 +1,20 @@
+body {
+    background-image: url(contact.jpg);
+    background-size: cover;
+    text-align: center;
+}
+* {
+    padding-left: 0;
+    padding-top: 0;
+}
+#glogo {
+    border-radius: 50%;
+}
+#contactdiv {
+    background-color: rgb(21, 189, 133);
+    height: 90px;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 300px;
+    margin-left: 80px;
+}
