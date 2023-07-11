@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(197, 200, 199);
+    text-align: center;
+    background-image: url(book.avif);
+    background-size: cover; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    color: rgb(99, 18, 18);
+    text-align: right;
+    margin-right: 180px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-underline-position: below;
+}
+
+body {
+    margin-right: 150px;
+    text-align: right;
+}
