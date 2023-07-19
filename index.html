@@ -11,14 +11,20 @@
 
 <body>
     <header>
+        <div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  switch to 'Desktop site' for better Experience(for mobile user only)
+</div>
+
 
         <!-- div for main head  -->
 
         <div id="top">
-            <button class = "button" type="button" style="margin-right: 7.5mm;">Resume</button>
+            <button class = "button" type="button" style="margin-right: 7.5mm;" onclick="window.location.href = 'resume.html'">Resume</button>
             <button class = "button" type="button" style="margin-right: 7.5mm;" onclick="window.location.href = 'education.html'">Education</button>
             <button class = "button" type="button" style="margin-right: 7.5mm;" onclick="window.location.href = 'skills.html'">Skills</button>
             <input class = "button" type="button" value="Contact" style="margin-right: 7.5mm;" onclick="window.location.href = 'Contact.html'">
+            <input class="button" type ="button" value="Projects">
         </div>
 
 
@@ -28,9 +34,9 @@
         <img src="new.png" height="150px" id="coding">
         <img src="fotor_2023-2-26_18_47_31.png" align="right"id="picture1" height="410px">
         <p id="intro"><b>Hi there,<br>I'm Mukul Sharma</b></p>
-        <p id="dev">Software developer</p><br>
-    
-    <button id="hire_me_button" class = "button" type="button">Hire Me</button>
+        <p id="dev">Java | Webapp developer</p><br>
+
+    <a href="mailto: smukul7465@gmail.com"><button id="hire_me_button" class = "button" type="button">Hire Me</button></a>
 
     <footer>
         <text type="text" id="created">created by Mukul Sharma</text>
